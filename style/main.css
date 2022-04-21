@@ -47,11 +47,15 @@ header nav a:hover{
 
 /*Filme pricipal*/
 
-.filme-principal{
+#filme-principal{
     font-size: 16px;
-    background: /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),*/ url('/img/capa-peaky.jpg');
-
-    height: 400px;
+    
+    /*
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-peaky.jpg'); */
+    background: url('/img/capa-peaky.jpg');
+    
+    
+    height: 800px;
     background-size: cover;
 
     display: flex;
@@ -61,12 +65,12 @@ header nav a:hover{
 
 }
 
-.filme-principal .descricao{
+#filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filme-principal .titulo{
+#filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -98,7 +102,7 @@ header nav a:hover{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+#filme-principal .container{
     width: 70%;
 }
 
@@ -107,3 +111,13 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+
+.item:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+ .titulo-carrosel{
+     font-size: 30px;
+     margin-left: 10px;
+ }

@@ -30,7 +30,7 @@
 
 
     <main>
-        <div class="filme-principal">
+        <div id="filme-principal">
             <div class="container">
                 <h3 class="titulo">PEAKY BLINDERS</h3>
                 <p class="descricao">Thomas Shelby e seus irmãos retornam a Birmingham depois de servir no exército britânico durante a Primeira Guerra Mundial. Os Peaky Blinders, a gangue na qual Thomas é líder, controlam a cidade de Birmingham. Mas, como as ambições de Shelby se estendem para além de Birmingham, ele planeja construir o império de negócios que criou e impedir qualquer um que atrapalhar.</p>
@@ -49,35 +49,36 @@
     </main>
 
     <div class="carrosel-filmes">
+        <h2 class="titulo-carrosel">EM ALTA</h2>
         <div class="owl-carousel owl-theme">
-            <div class="item">
+            <div class="item" onmouseenter="entrar1()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar2()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar3()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar4()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar5()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar6()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar7()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar8()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar9()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
             </div>
-            <div class="item">
+            <div class="item" onmouseenter="entrar10()" onmouseout="sair()">
                 <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
             </div>
         </div>
@@ -89,7 +90,6 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
-
 
 </body>
 </html>
